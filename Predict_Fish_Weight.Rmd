@@ -99,8 +99,9 @@ as.data.frame(summary.out$outmat)
 library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
-### For the smelt model
-
+  
+### For the Smelt  Model the best  regressor model is L2 and width, The best overall model for regressor includes L1 L2 Height and Weight   
+    
 # Discussion and Final Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
