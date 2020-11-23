@@ -74,10 +74,8 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
   
-### For the Bream Model the best  regressor model is Height and then L2- Height . So we can see the adjusted R-squared is 0.9356 for Length 2-height.  
+### The best two regressor model for Bream is Height and then L2- Height. So we can see the the adjusted R squared is 0.9356 for Length 2-Height.  
   
-
-
 # Smelt Model
 ```{r}
 # read in the fish data
@@ -105,4 +103,6 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 # Discussion and Final Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
+  
+### Based on the information we have, we can say that we found out two different variables for each fish regression model. To explain the two-element regression model's best explanation is to describe the weight of the fish. For perch, it was Height and Width. For Bream, it was Length and Width. For Smelt, it was L2 and Height. For each different fish, the best two-element regression model are different. One id Height and Width. The other is Length and Width, and one is Lenght and Height  
+    
